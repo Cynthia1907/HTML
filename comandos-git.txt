@@ -1,5 +1,12 @@
+SUBIR TUS CAMBIOS
+------------------------------------
 git status
 git add .
 git status
 git commit -m "cualquier mensaje"
 git push
+
+
+BAJAR CAMBIOS DE OTRA PERSONA
+-----------------------------------
+git pull
