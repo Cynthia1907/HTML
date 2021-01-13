@@ -1,0 +1,25 @@
+td {
+    width: 50px;
+    height: 50px;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+    
+}
+table {
+    padding: 5px;
+    background-color: chartreuse;
+    border-spacing: 10px;
+}
+.naranja {
+    background-color: darkorange;
+}
+.amarillo {
+    background-color: gold;
+}
+.plomo {
+    background-color: rgb(207, 184, 184);
+    text-align: right;
+    padding-right: 5px;
+    font-size: 1.5rem;
+}
+

@@ -1,0 +1,28 @@
+input {
+    border: 0px;
+    border-bottom: 5px solid blueviolet;
+}
+h2 {
+    display: inline-block;
+    margin: 0;
+    margin-left: 20px;
+}
+.verde {
+    background-color: green;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    width: 200px;
+    text-align: center;
+}
+.azul {
+    background-color: blue;
+    width: 200px;
+    
+}
+.centro {
+    text-align: left;
+}
+
+
+
+    

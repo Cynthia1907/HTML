@@ -1,0 +1,24 @@
+p{
+    color:cornflowerblue;
+}
+td{
+    border-color: crimson;
+    height: 25px;
+    width: 50px;
+    text-align: center;
+    background-color: darkmagenta;
+    border-radius: 50%;
+    
+    
+}
+.naranja {
+    background-color: forestgreen;
+}
+
+input {
+    background-color: gold;
+    font-size: 20px;
+}
+option {
+    background-color: grey;
+}

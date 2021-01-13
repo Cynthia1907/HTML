@@ -1,0 +1,60 @@
+/*
+Aplicar el reset para eliminar los estilos del navegador.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    background-color: darksalmon;
+    margin: 50px;
+}
+
+/* 
+    Los estilos se aplican en cascada. 
+    el párrafo se va a pintar con el background-color
+    que se encuentra más abajo
+*/
+p {
+    background-color: dodgerblue;
+
+    /* 
+        Una regla CSS es la herencia.
+        El elemento "a" va a heredar el font-size del párrafo.
+    */
+    font-size: 1.5rem;
+}
+
+/*
+    Otra regla CSS es la especificidad.
+    Mientras más específico sea el selector, los estilos aplicados
+    van a prevalecer sobre los menos específicos.
+*/
+div p {
+    color: #ffffff;
+}
+
+div p {
+    color: red;
+}
+
+div {
+    background-color: darkseagreen;
+    /* padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-bottom: 40px; */
+
+    padding: 30px 20px 40px 100px;
+}
+
+img {
+    /* background-color: darkslateblue;
+    padding: 10px; */
+    /* border-width: 10px;
+    border-style: dotted;
+    border-color: deeppink; */
+    border: 10px dotted deeppink;
+}

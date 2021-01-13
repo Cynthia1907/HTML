@@ -1,0 +1,37 @@
+/*
+INDICACIONES:
+
+1. Aplicar el reset básico de margen y padding.
+
+2. Aplicar al título:
+    - Tipo de letra: Arial.
+    - Tamaño de letra: 3 rem.
+    - Fondo Celeste.
+    - Color verde oscuro.
+    - Margen inferior 40px;
+
+3. Aplicar a los párrafos:
+    - Fondo azul oscuro.
+    - Color blanco.
+    - Padding superior: 40px.
+    - Padding derecho: 30px.
+    - Padding inferior: 20px.
+    - Padding izquierdo: 10px.
+*/
+* {
+ margin: 0;
+ padding: 0;
+}
+h1 {
+    font-family: arial;
+    font-size: 3rem;
+    background-color: dodgerblue;
+    color: forestgreen;
+    margin-bottom: 40px;
+
+}
+p {
+    background-color: blue;
+    color: cornsilk;
+    padding: 40px 30px 20px 10px;
+}

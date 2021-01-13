@@ -1,0 +1,70 @@
+/*
+INDICACIONES:
+
+1. Aplicar el reset básico de margen y padding.
+
+2. Aplicar al body un fondo color vino
+
+3. Aplicar al título:
+    - Tipo de letra: Sans Serif.
+    - Tamaño de letra: 2.5 rem.
+    - Color blanco.
+    - Margen superior 40px.
+    - Margen inferior 60px.
+    - Margen izquierdo 200px.
+
+4. Aplicar al div:
+    - Fondo con color rgb: rojo 157, verde 218 y azul 209.
+    - Color vino. (Regla CSS de herencia)
+    - Padding superior, derecho, bajo e izquierdo todos iguales a 20px.
+
+5. Aplicar a los párrafos:
+    - Tipo de fuente: Arial
+    - Color de fuente: Heredará el color definido en el elemento padre.
+    - Tamaño de fuente: 1.5 rem.
+    - Margen superior: 20px.
+
+6. Aplicar a los enlaces:
+    - Color de fuente: azul.
+    - Ancho de la fuente bold.
+
+7. Aplicar a los enlaces dentro de un parrafo dentro de un div (link patito): 
+    - Color de fuente: verde claro. (Regla CSS de especificidad)
+
+*/
+* {
+    margin: 0px; 
+    padding: 0px;
+}
+body {
+    background-color: darkred;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    color: blanchedalmond;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 200px;
+}
+div {
+    background-color: rgb(157,218,209);
+    color: firebrick;
+    padding: 20px;
+    
+}
+p {
+    font-family: arial;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+a {
+    color: darkslateblue;
+    font-weight: bold;
+}
+/* .verdeclaro {
+    color: darkturquoise;
+} */
+ div p a {
+     color: darkturquoise;
+ }
