@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(192, 143, 226);
+    font-family: Arial;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+div {
+    padding: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+    background-color: pink;
+}
+
+.primero {
+    background-color: yellow;
+}
+
+.inicio {
+    background-color: orange;
+    padding: 20px;
+}
+
+.fin {
+    background-color: palegreen;
+    padding: 30px;
+}
+
+.segundo {
+    background-color: red;
+}
+
+.tercero {
+    background-color: blue;
+    padding: 0;
+}
