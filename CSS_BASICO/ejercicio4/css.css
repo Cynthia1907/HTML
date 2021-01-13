@@ -1,0 +1,23 @@
+h1,h2 {
+    color:#ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: bold;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color:mediumpurple;
+}
+
+div {
+    background-color:midnightblue;
+    color:mediumaquamarine;
+    font-family: cursive;
+    font-size: 30px;
+    margin: 40px;
+}
+
