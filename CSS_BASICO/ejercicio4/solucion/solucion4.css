@@ -7,6 +7,23 @@ body {
     background-color: rgba(88, 88, 255, .8);
 }
 
-h1 {
-
+h1, h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
 }
+
+div {
+    margin: 20px;
+    background-color: indianred;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    color: rgb(50, 255, 50);
+}
+
