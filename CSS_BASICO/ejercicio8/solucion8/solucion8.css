@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo {
+    background-image: url('./img/Star_Wars_Logo.svg');
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    height: 600px;
+    padding-top: 350px;
+}
+
+p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    font-family: monospace;
+    font-style: oblique;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navegacion {
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 30px;
+    background-image: linear-gradient(black, grey);
+}
+
+span {
+    margin-right: 50px;
+}

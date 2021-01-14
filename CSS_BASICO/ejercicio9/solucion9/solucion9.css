@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red; */
+}
+
+.contenido {
+    background-image: radial-gradient(black, grey);
+    height: 2000px;
+}
+.content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo {
+    background-image: url('./img/got-logo-2.jpg');
+    height: 250px;
+    /* width: 100%;
+    margin: 0 auto; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.galeria>div {
+    height: 367px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.stark {
+    background-image: url('./img/stark.jpg');
+    
+}
+.lanister {
+    background-image: url('./img/lanister.jpg');
+}
+.targaryen {
+    background-image: url('./img/targaryen.jpg');
+}
+.barentheon {
+    background-image: url('./img/barentheon.jpg');
+}

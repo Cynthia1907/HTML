@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 1px solid red;
+}
+
+body {
+    background-color: rgb(226, 224, 220);
+    padding: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div {
+    /* Centrar un div horizontalmente */
+    /* width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 400px;
+    margin-right: 100px; */
+    width: 60%;
+    /* margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: 10%; */
+    /* margin: 0 10% 0 10%; */
+    /* margin: 0 10% 0; */
+    /* margin: 0 auto; */
+    margin: 40px auto;
+    padding: 30px;
+    height: 150px;
+    background-color: khaki;
+}
+
+h2 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+p {
+    width: 70%;
+    margin: 30px auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: greenyellow;
+    font-family: cursive;
+}
+
+.sin-background {
+    background: none;
+}
+
+.con-background-color {
+    background-color: rgba(0, 0, 240, .09);
+}
+
+/* 
+    A pesar de que el siguiente background está aplicándose
+    después del anterior (debería cumplirse la cascada) se 
+    está tomando los estilos de la clase .con-background-color
+    ya que una clase es más específica que el selector div
+    (regla de especificidad sobre la cascada).
+*/
+div {
+    background-color: saddlebrown;
+}
+
+.con-background-image {
+    background-image: url('./images/perritos.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-size: cover;
+}
+
+.con-background-color-degradado {
+    background-image: linear-gradient(yellow, red);
+    background-image: linear-gradient(red, yellow);
+    background-image: radial-gradient(red, yellow);
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(236,240,71,1) 82%, rgba(0,212,255,1) 100%);
+}
