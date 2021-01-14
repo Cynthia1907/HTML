@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font-style: oblique;
+    text-align: center;
+}
+body {
+    background-color: beige;
+}
+.primero {
+    background-color: yellow;
+    padding: 60px;
+}
+.inicio {
+    background-color:white;
+    padding:25px;
+    color: seagreen;
+}
+.fin {
+    background-color: white;
+    padding:25px;
+    margin-top: 20px;
+    color: blue;
+}
+.segundo {
+    background-color: darkturquoise;
+    padding: 60px;
+}
+.tercero {
+    background-color: blue;
+    padding: 60px;
+}
+.cuarto {
+    background-color: red;
+    padding: 60px;
+}
+

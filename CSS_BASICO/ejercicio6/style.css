@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font-style: oblique;
+    text-align: center;
+    background-color: pink;
+    padding: 1px;
+}
+body {
+    background-color:darkslateblue;
+    padding: 20px;
+}
+.primero {
+    background-color:yellow;
+    padding: 50px;
+}
+.segundo {
+    background-color: lawngreen;
+    padding: 50px;
+}
+.tercero {
+    background-color: blue;
+    padding: 50px;
+}
+.cuarto {
+    background-color: red;
+    padding: 60px;
+}
+.quinto {
+    background-color: peru;
+    padding: 60px;
+}
+.inicio {
+    color: seagreen;
+    background-color:snow;
+    font-family:arial;
+    padding:20px;
+
+}
+.fin {
+    color: blue;
+    background-color: chartreuse;
+    font-family: arial;
+    margin-top: 20px;
+    padding:40px;
+    
+
+}
